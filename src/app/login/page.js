@@ -4,7 +4,7 @@ export default function login() {
     return(
       <main>
         <div className ="bg-sky-100 flex flex-col h-screen items-center ">
-            <Image src={bits_logo} className="justify-center items-center ml-12 mt-2 md:h-[15%] md:w-[30%]" alt="BITS Logo" />
+            <Image src={bits_logo} className="justify-center items-center ml-12 mt-4 md:h-[15%] md:w-[30%]" alt="BITS Logo" />
         <div className="sm:mx-auto sm:w-full sm:max-w-sm justify-center items-center my-auto">
           <form className="space-y-6" action="http://localhost:3000" method="get">
             <button
